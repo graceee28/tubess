@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    margin-top: 10px;
+    background-color: rgb(220, 198, 198);
+    color: white;
+    border-radius: 40px;
+}
+.header h1{
+    font-weight: 200;
+}
+.header1 {
+    margin-top: 40px;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    background-color:rgb(247, 244, 244);
+    border-radius: 10px;
+    border-style:double;
+    gap: 30px; 
+}
+.header1 img {
+    margin-top: 15px;
+    width: 150px; 
+    height: 150px;
+    object-fit: cover; 
+    border-radius: 50%; 
+}
+.header1 .text {
+    margin-top: 30px;
+    display: flex;
+    font-size:small;
+    color: rgb(81, 63, 63);
+    font-family: 'Times New Roman', Times, serif;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.9; 
+}
+.text h3{
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    font-style: oblique;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.3; 
+    align-items: center;
+    background-color: rgb(247, 244, 244);
+    border-radius: 15px;
+    gap: 20px;
+    margin-top: 70px;
+}
+.menu h2{
+    font-size:x-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(118, 118, 196);
+}
+.menu h1{
+    display: flex;
+    flex-direction: column-reverse;
+    color:rgb(11, 11, 105);
+    font-weight: 400; 
+}
+.menu img{
+    width: 400px;
+    border-radius: 10px;
+}
+.isi{
+    margin-top: 90px;
+    padding: 20px;
+    background-color: rgb(220, 198, 198);
+    border-radius: 10px;
+    border-style:groove;
+    line-height: 1.3; 
+    box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.3);
+}
+.isi h2{
+    font-size: x-large;
+    color: rgb(120, 0, 44);
+    margin-bottom: 10px;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+.fungsi{
+    margin-top: 40px;
+    padding: 20px;
+     background-color: rgb(220, 198, 198);
+    border-radius: 10px;
+    border-style: groove;
+    line-height: 1.3; 
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3);
+}
+.fungsi h2{
+    font-size: x-large;
+    color: rgb(120, 0, 44);
+    margin-bottom: 10px;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+.jenis{
+    margin-top: 40px;
+    padding: 20px;
+    background-color: rgb(220, 198, 198);
+    border-radius: 10px;
+    border-style: groove;
+    line-height: 1.3; 
+    box-shadow: 5px 20px 15px rgba(0, 0, 0, 0.3);
+
+}
+.jenis h2{
+    font-size: x-large;
+    color: rgb(120, 0, 44);
+    margin-bottom: 30px;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+.jenis h3 {
+    position: relative; 
+    padding-left: 20px;
+    color:rgb(11, 11, 105);
+    font-weight: 400; 
+    
+} 
+.jenis h3::before {
+    content: "●"; 
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    color: rgb(255, 0, 0); 
+    font-size: 17px; 
+}
+.jenis img{
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+.tutor{
+    text-align: center;
+    justify-content: center;
+    margin-top: 80px;
+    padding: 80px;
+    background-color: rgb(220, 198, 198);
+    border-radius: 10px;
+    border-style:groove;
+    line-height: 1.9;   
+    box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.10s ease, transform 0.1s ease;
+}
+.sumber{
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+    padding: 20px;
+    background-color: rgb(220, 198, 198);
+    border-radius: 10px;
+    border-style:inset;
+    line-height: 1.9;   
+    box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.10s ease, transform 0.1s ease;
+}
+.sumber h2{
+    font-size: x-large;
+    color: rgb(120, 0, 44);
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+footer{
+    background-color: rgb(255, 255, 255);
+    color: rgb(118, 118, 196);
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
